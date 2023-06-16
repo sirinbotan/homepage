@@ -1,0 +1,63 @@
+/* Responsive Framework*/
+
+
+/********** Large devices (desktop) **********/
+@media (min-width: 992px) {
+
+}
+
+/********** Medium devices (tablet) **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Small devices (mobile) **********/
+@media (max-width: 767px) {
+
+
+h1 {
+  float: left;
+}
+
+header li { 
+    list-style: none; /*remove bullets*/
+    float: none;
+    padding: 5px;
+}
+
+.section{
+  align-items: initial;
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+#aboutme {
+    align-items: center;
+    flex-flow: column-reverse nowrap;
+}
+
+#dissertation { 
+display:none; 
+}
+
+#teachinglist {
+    flex-flow: column nowrap;
+}
+
+#aboutmetext{
+    padding: 0px;
+    padding-top: 30px;
+}
+
+#publications{
+    padding: 0px;
+}
+
+#flexmenu {
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+}

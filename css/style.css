@@ -1,0 +1,171 @@
+:root {
+    --whiteish: #e9e2d0;
+    --blackish: #413E3D;
+    --maincolour:#CB610C;
+    --accent: #ECBF9F;
+    --accent2: #D98040;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background-color: var(--whiteish); 
+    font-family: spectral;
+    font-weight: 300;
+    line-height: 150%;
+     }
+
+
+::selection { /*colouring for highlighted text on page*/
+  background: var(--accent); 
+}
+
+/* Header */
+
+.bg-image { 
+    background-image: url("../images/topnav.png");
+    height: 350px;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+ 
+
+h1 { 
+padding: 30px;
+font-family: poppins;
+float: left;
+ }
+
+ol, ul {
+    padding-left: 30px;
+}
+
+li {
+    list-style: disc; 
+    padding: 10px;
+
+}
+header li { 
+    list-style: none; /*remove bullets*/
+    float: right;
+    padding: 10px;
+    font-family: poppins;
+    font-weight: 400;
+}
+
+#flexmenu { 
+    padding-top: 20px;
+    padding-right: 20px;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-family: poppins;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: poppins;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+header a {
+    color: black;
+}
+
+a {
+    color: var(--maincolour);
+}
+/* Main Sections */
+
+.section {
+    margin: 70px;
+    overflow: hidden;
+}
+
+#research {
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+#aboutme {
+    margin-top:0px;
+}
+
+#dissertation {
+padding-left: 60px;
+padding-right:60px;
+}
+
+#dissertation > .subsubsection { 
+padding: 20px;
+ }
+
+
+#teachinglist > .subsubsection { 
+padding: 0px;
+ }
+
+#teaching { 
+flex-flow: column nowrap;
+align-items: flex-start;
+margin-bottom: 0px;
+}
+
+#aboutmetext, #publications{
+    padding: 20px;
+}
+
+img {
+  display: block;
+}
+
+.flex_container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#teachinglist {
+    align-items: flex-start;
+}
+
+/* Publication List */
+
+.pubvenue {
+    font-style: italic;
+}
+
+.pubtitle {
+    font-weight: bold;
+}
+
+.pubnote {
+    font-size: x-small;
+}
+
+
+a.pdflink { 
+text-decoration:none; }
+/* Footer */
+
+footer { 
+background-image: url('../images/footer.png'); 
+height: 200px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
