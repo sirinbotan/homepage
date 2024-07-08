@@ -3,10 +3,12 @@
 <head>
 <meta meta name='viewport' content='width=device-width, initial-scale=1' charset='UTF-8'>
 <!--stylesheets-->
-<link rel='stylesheet' href='css/style.css'>
-<link rel='stylesheet' href='css/responsive.css'>
+<link rel='stylesheet' href='css/2024HP-style.css'>
+<link rel='stylesheet' href='css/2024HP-responsive.css'>
 <!--fonts-->
-<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Playfair:wght@300;400&family=Poppins:wght@400;600&family=Spectral:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <!--scripts-->
 <script src='scripts/hover.js'></script>
 <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
@@ -24,12 +26,12 @@
 		</ul>
 		<div style="clear: both;"></div>
 		</nav>
+		<hr class="rounded">
 	</header>
 
 	<div id='content'>
 			<div class='flex_container section' id='aboutme'>
 				<div class='subsection' id='aboutmetext'>
-					<h2>About Me</h2>
 						<p>
 							Since 2022 I've been a postdoctoral fellow at UNSW Sydney, hosted by Toby Walsh. I'm a member of the <a href='https://www.cse.unsw.edu.au/~adt/' target='_blank'>Algorithmic Decision Theory group</a> at the School of Computer Science and Engineering.
 						</p>
@@ -47,31 +49,37 @@
 		            	</p>
 		            	<br>
 		            	<p>
-		            	You can reach me at <i>botan.sirin</i> [@] <i>gmail</i> [daht] <i>com</i>. 
+		            	You can reach me at <i>botan.sirin@gmail.com</i>. 
 		            	</p>
             	</div>
             	<div class='subsection'>
 					<img id='myphoto' src='images/bigsirin.png' alt='On hover this photo switches from being a photo of a knit doll resembling me to a photo of me. We are both wearing black. The photos are both taken with the same background, some kind of conifer.' width='360px' onmouseover='onHover();' onmouseout='offHover();' >
 				</div>
 			</div>
-
+			<hr class="rounded">
 			<div class='flex_container section' id='research'>
 				<div class='subsection' id='publications'>
 					<h2>Publications</h2>
 					<ol class='publist'>
+											<li>
+	                	<span class='pubauthors'>Sirin Botan, Angus Ritossa, Mashbat Suzuki and Toby Walsh.</span>
+	                	<span class='pubtitle'>Maximin Fair Allocation of Indivisible Items Under Cost Utilities.</span>
+	                	<span class='pubvenue'>International Symposium on Algorithmic Game Theory,</span>
+	                	<span class='pubyear'>2023.</span>
+	                </li>
 	                <li>
 	                	<span class='pubauthors'>Sirin Botan, Ronald de Haan, Marija Slavkovik and Zoi Terzopoulou.</span>
 	                	<span class='pubtitle'>Egalitarian Judgment Aggregation.</span>
 	                	<span class='pubvenue'>Autonomous Agents and Multi-Agent Systems 37(16),</span>
 	                	<span class='pubyear'>2023.</span>
-	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanEtAlJAAMAS2023.pdf' target='_blank'>(PDF)</a></span>
+	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanEtAlJAAMAS2023.pdf' target='_blank'>(pdf)</a></span>
 	                </li>
 	                <li>
 	                	<span class='pubauthors'>Sirin Botan, Simon Rey, and Zoi Terzopoulou.</span>
-	                	<span class='pubtitle'>Let’s Agree to Agree: Targeting Consensus for Incomplete Preferences through Majority Dynamics. </span>
+	                	<span class='pubtitle'>Let's Agree to Agree: Targeting Consensus for Incomplete Preferences through Majority Dynamics. </span>
 	                	<span class='pubvenue'>Proceedings of the 31st International Joint Conference on Artificial Intelligence (IJCAI),</span>
 	                	<span class='pubyear'>2022.</span>
-	                	<span class='pubpdf'><a class='pdflink' href='publications/BotalEtAlIJCAI2022.pdf' target='_blank'>(PDF)</a></span>
+	                	<span class='pubpdf'><a class='pdflink' href='publications/BotalEtAlIJCAI2022.pdf' target='_blank'>(pdf)</a></span>
 	                </li>
 	                <li>
 	                	<span class='pubauthors'>Sirin Botan.</span>
@@ -79,28 +87,28 @@
 	                	<span>PhD thesis</span>
 	                	<span>ILLC, University of Amsterdam,</span>
 	                	<span class='pubyear'>2021.</span>
-	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanDissertation.pdf' target='_blank'>(PDF)</a></span>
+	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanDissertation.pdf' target='_blank'>(pdf)</a></span>
 	                </li>
 	                <li>
 	                	<span class='pubauthors'>Sirin Botan.</span>
 	                	<span class='pubtitle'>Manipulability of Thiele Rules on Party-list Profiles.</span>
 	                	<span class='pubvenue'>Proceedings of the 20th International Conference on Autonomous Agents and Multiagent Systems (AAMAS),</span>
 	                	<span class='pubyear'>2021.</span>
-	                	<span class='pubpdf'><a class='pdflink' href='publications/Botan2021.pdf' target='_blank'>(PDF)</a></span>
+	                	<span class='pubpdf'><a class='pdflink' href='publications/Botan2021.pdf' target='_blank'>(pdf)</a></span>
 	                </li>
 	                <li>
 	                	<span class='pubauthors'>Sirin Botan, Ronald de Haan, Marija Slavkovik and Zoi Terzopoulou.</span>
 	                	<span class='pubtitle'>Egalitarian Judgment Aggregation.</span>
 	                	<span class='pubvenue'>Proceedings of the 20th International Conference on Autonomous Agents and Multiagent Systems (AAMAS),</span>
 	                	<span class='pubyear'>2021.</span>
-	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanEtAl2021-EgalitarianJA.pdf' target='_blank'>(PDF)</a></span>
+	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanEtAl2021-EgalitarianJA.pdf' target='_blank'>(pdf)</a></span>
 	                </li>
 	                <li>
 	                	<span class='pubauthors'>Sirin Botan and Ulle Endriss.</span>
 	                	<span class='pubtitle'>Preserving Condorcet Winners under Strategic Manipulation.</span>
 	                	<span class='pubvenue'>Proceedings of the 35th AAAI Conference on Artificial Intelligence (AAAI),</span>
 	                	<span class='pubyear'>2021.</span>
-	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanEndriss2021.pdf' target='_blank'>(PDF)</a></span>
+	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanEndriss2021.pdf' target='_blank'>(pdf)</a></span>
 	                	<span class='pubnote'>(Previously presented at GAIW-2020.)</span>
 	                	
 	                </li>
@@ -109,14 +117,14 @@
 	                	<span class='pubtitle'>Majority-Strategyproofness in Judgment Aggregation.</span>
 	                	<span class='pubvenue'>Proceedings of the 19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS),</span>
 	                	<span class='pubyear'>2020.</span>
-	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanEndriss2020.pdf' target='_blank'>(PDF)</a></span>
+	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanEndriss2020.pdf' target='_blank'>(pdf)</a></span>
 	                </li>
 	                <li>
 	                	<span class='pubauthors'>Sirin Botan, Umberto Grandi and Laurent Perrussel.</span>
 	                	<span class='pubtitle'>Multi-Issue Opinion Diffusion under Constraints.</span>
 	                	<span class='pubvenue'>Proceedings of the 18th International Conference on Autonomous Agents and Multiagent Systems (AAMAS),</span>
 	                	<span class='pubyear'>2019.</span>
-	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanEtAl2019.pdf' target='_blank'>(PDF)</a></span>
+	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanEtAl2019.pdf' target='_blank'>(pdf)</a></span>
 	                	<span class='pubnote'>(Previously presented at EXPLORE-2017 and COMSOC-2018.)</span>
 	                </li>
 	                <li>
@@ -124,7 +132,7 @@
 	                	<span class='pubtitle'>Group Manipulation in Judgment Aggregation.</span>
 	                	<span class='pubvenue'>Proceedings of the 15th International Conference on Autonomous Agents and Multiagent Systems (AAMAS),</span>
 	                	<span class='pubyear'>2016.</span>
-	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanEtAl2016.pdf' target='_blank'>(PDF)</a></span>
+	                	<span class='pubpdf'><a class='pdflink' href='publications/BotanEtAl2016.pdf' target='_blank'>(pdf)</a></span>
 	                </li>
 	                <li>
 	                	<span class='pubauthors'>Sirin Botan.</span>
@@ -132,7 +140,7 @@
 	                	<span> Master's thesis</span>
 	                	<span> ILLC, University of Amsterdam,</span>
 	                	<span class='pubyear'>2016.</span>
-	                	<span class='pubpdf'><a class='pdflink' href='publications/Botan_MoLThesis.pdf' target='_blank'>(PDF)</a></span>
+	                	<span class='pubpdf'><a class='pdflink' href='publications/Botan_MoLThesis.pdf' target='_blank'>(pdf)</a></span>
 	                </li>
 	           		</ol>
            		</div>
@@ -143,18 +151,19 @@
 					</div>
 					<div class='subsubsection'>
 						<h3>My PhD Dissertation</h3>
-						<p>My thesis examines strategic manipulation in three areas of social choice theory—single-winner voting, multiwinner voting, and judgment aggregation. While we would like our aggregation methods to be strategyproof—meaning no agent has an incentive to misreport her preferences or opinions—strategic manipulation is difficult to avoid, no matter what specific framework we consider. A well-known and often used approach is to consider only specific types of input to the aggregation method—so-called restricted domains. In this thesis we examine whether agents can manipulate from a profile in a ''well-behaved'' domain to one outside the domain in question.
+						<p>My thesis examines strategic manipulation in three areas of social choice theory&mdash;single-winner voting, multiwinner voting, and judgment aggregation. While we would like our aggregation methods to be strategyproof&mdash;meaning no agent has an incentive to misreport her preferences or opinions&mdash;strategic manipulation is difficult to avoid, no matter what specific framework we consider. A well-known and often used approach is to consider only specific types of input to the aggregation method&mdash;so-called restricted domains. In this thesis we examine whether agents can manipulate from a profile in a ''well-behaved'' domain to one outside the domain in question.
 						</p> 
 					</div>
 				</div>
 			</div>
-
+			<hr class="rounded">
 			<div class='flex_container section' id='teaching'>
 				<div class='subsection'>
-					<h2 id='teachingheader'>Teaching and Supervision</h2>
 				</div>
 				<div class='flex_container subsection' id='teachinglist'>
+					
 					<div class='subsubsection'>
+						<h2>Supervision</h2>
 					<ul>
 						<li> Co-supervisor for honours student in computer science at UNSW, 2023.</li>
 						<li> Co-supervisor for honours student in computer science at UNSW, 2022.</li>
@@ -163,7 +172,9 @@
 						<li> Co-supervisor for BSc thesis in AI at UvA, 2019.</li>
 					</ul>
 					</div>
+
 					<div class='subsubsection'>
+						<h2>Teaching</h2>
 					<ul>
 						<li> In January 2021 I taught a <a href='jan2020-project/pe2021.html' target='_blank'>Master of Logic project on preference extensions</a>.</li>
 						<li> In the fall of 2018 I co-organised a student seminar on algorithmic game theory.</li>
